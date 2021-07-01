@@ -99,6 +99,13 @@ a:hover {
     width:800px;
 }
 
+.blog-list,.blog-list a:hover{
+    display: block;
+    float: none;
+    background-color:gray;
+
+}
+
 .img {
     padding:0px;
     margin:0px;
@@ -112,5 +119,9 @@ a:hover {
 }
 
 .footer {
-    float: right;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
 }
+
