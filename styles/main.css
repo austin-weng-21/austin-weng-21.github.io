@@ -37,7 +37,7 @@ hr {
     text-decoration: none;
 }
 
-ul {
+.nav-bar ul {
     list-style-type: none;
     background-color: #333;
     color: white;
@@ -48,11 +48,11 @@ ul {
     text-align: center;
 }
 
-li {
+.nav-bar li {
     float: left;
 }
 
-li a {
+.nav-bar li a {
     display: block;
     padding: 10px 49px;
 }
@@ -99,11 +99,28 @@ a:hover {
     width:800px;
 }
 
+.blog-list ul {
+    padding:15px;
+    text-align: left;
+}
+.blog-list li {
+    padding:5px;
+}
+
+ul.post-section-list li {
+    list-style-type:circle;
+    background-color: lightgray;
+    color: black;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 15px;
+    width: 95%;
+}
+
 .blog-list,.blog-list a:hover{
     display: block;
     float: none;
     background-color:gray;
-
 }
 
 .img {
