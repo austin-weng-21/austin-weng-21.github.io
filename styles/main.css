@@ -27,6 +27,11 @@ h3 {
 h4{
     text-decoration: underline;
     font-style: italic;
+    font-size: 1.1em;
+}
+
+h5{
+    font-size: 1.025em;
 }
 
 hr {
@@ -35,6 +40,8 @@ hr {
 
 #no-dec{
     text-decoration: none;
+    font-size: 1.3em;
+    margin-bottom:5px ;
 }
 
 .nav-bar ul {
@@ -64,6 +71,18 @@ a {
 a:hover {
     color:orange;
     background-color: #111;
+}
+
+.post-section a{
+    color:#FFF;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.post-section a:hover{
+    color:orange;
+   
 }
 
 .justify {
@@ -108,13 +127,13 @@ a:hover {
 }
 
 ul.post-section-list li {
-    list-style-type:circle;
+    list-style-type:disc;
     background-color: lightgray;
     color: black;
     line-height: 25px;
     text-align: justify;
     margin-left: 15px;
-    width: 95%;
+    width: 90%;
 }
 
 .blog-list,.blog-list a:hover{
