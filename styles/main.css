@@ -2,18 +2,29 @@
     font-size: 18px;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background:lightgray;
     overflow: scroll;
     font-family:Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
 }
 
+/* .header {
+    padding: 60px;
+    text-align: center;
+    background: lightblue;
+    color: white;
+  } */
 
 h1 {
     background-color:lightblue;
     padding: 8px;
     text-align: center;
     margin:0px;
+    width: 100%;
 }
 
 h3 {

@@ -1,0 +1,185 @@
+:root {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+    overflow: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: lightblue;
+    color: black;
+}
+
+h4 {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+hr {
+    margin: 0px;
+}
+
+#no-dec {
+    text-decoration: none;
+    font-size: 1.45rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.navbar  {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+}
+
+.navbar a {
+    color:  #FFF;
+    padding: 12px 60px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color:orange;
+    background-color: #111;
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.post-section a {
+    color: #FFF;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.post-section a:hover {
+    color: orange;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+    line-height: 1.5rem;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.blog-list-center{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.tech-blog-center{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.left {
+   flex: 50%;
+   padding: 40px;
+}
+
+.right {
+   flex: 50%;
+   padding: 40px;
+}
+
+.post-section {
+    padding: 5px;
+    width: 100%;
+}
+
+.blog-list ul {
+    padding: 15px;
+    text-align: left;
+}
+
+.blog-list li {
+    padding: 5px;
+}
+
+ul.post-section-list li {
+    list-style-type: disc;
+    background-color: lightgray;
+    color: black;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 15px;
+    width: 90%;
+    line-height: 1.2rem;
+}
+
+.blog-list, .blog-list a:hover {
+    display: block;
+    float: none;
+    background-color: gray;
+}
+
+.img {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+}
+
+.img-post-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+}
+
+.tech-blog-img{
+    /* width: 400px; */
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+
+  }
+@media screen and (min-width: 1500px) {
+    .img {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 500px;
+    }
+
+    :root {
+        font-size: 36px;
+    }
+
+  }

@@ -4,43 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog Directory</title>
-    <link rel="stylesheet" href="..\styles\main.css" type="text/css">
+    <title>My Blog</title>
+    <!-- <link rel="stylesheet" href="styles\main.css" type="text/css"> -->
+    <link rel="stylesheet" href="../styles/mainR.css" type="text/css">
 
 <body>
-    <div>
+
+    <div class="header">
         <h1>Austin @ Dev Academy</h1>
-    </div>
-    <hr>
-    <div>
+        <hr>
         <h3>--- Welcome to my study blog</h3>
     </div>
 
-    <div class="nav-bar">
-        <ul>
-            <li>
-                <a href="..\index.html">Home</a>
-            </li>
-            <li>
-                <a href="blog-page.html">Blog</a>
-            </li>
-            <li>
-                <a href="identity-values.html">Values</a>
-            </li>
-            <li>
-                <a href="learning-plan.html">Learning Plan</a>
-            </li>
-        </ul>
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="blog-page.html">Blog</a>
+        <a href="identity-values.html">Values</a>
+        <a href="learning-plan.html">Learning Plan</a>
     </div>
-    <div class="img-section">
-        <div>
-            <h4 id="no-dec">What are the differences between relative, <br> absolute, and fixed positioning?</h4>
+
+    <div>
+        <div class="tech-blog-center">
             <div class="post-section">
+                <h4 id="no-dec">What are the differences between relative, <br> absolute, and fixed positioning?</h4>
                 <h4> Relative position</h4>
                 <p class="justify">Relative position places the element relative to it's normal position in the document
                     flow.
                     Page scrolling does affect this position. </p>
-                <img src="..\materials\relative.jpg" alt="relative position image">
+                <img class="tech-blog-img" src="..\materials\relative.jpg" alt="relative position image">
                 <h4> Absolute position</h4>
                 <p class="justify">Absolute position places the element relative to it's closest parent element. In
                     other words, it's
@@ -50,12 +41,12 @@
                     viewport
                     if it cannot find the positioned (relative/absolute) parent element. Page scrolling does affect this
                     position. </p>
-                <img src="..\materials\absolute.jpg" alt="relative position image">
+                <img class="tech-blog-img" src="..\materials\absolute.jpg" alt="relative position image">
                 <h4> Fixed position</h4>
                 <p class="justify">Fixed position places the element at a fixed spot relative to the browser viewport.
                     It removes the element
                     from the normal document position completely.Page scrolling doesn't affect this position. </p>
-                <img src="..\materials\fixed.jpg" alt="relative position image">
+                <img class="tech-blog-img" src="..\materials\fixed.jpg" alt="relative position image">
             </div>
         </div>
     </div>
